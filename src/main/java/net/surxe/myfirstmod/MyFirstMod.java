@@ -2,6 +2,9 @@ package net.surxe.myfirstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.surxe.myfirstmod.block.ModBlocks;
+import net.surxe.myfirstmod.item.ModItemGroups;
+import net.surxe.myfirstmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +23,8 @@ public class MyFirstMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
