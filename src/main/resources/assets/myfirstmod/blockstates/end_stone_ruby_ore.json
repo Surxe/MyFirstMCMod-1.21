@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "myfirstmod:end_stone_ruby_ore"
+      "model": "myfirstmod:block/end_stone_ruby_ore"
     }
   }
 }

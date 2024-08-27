@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "myfirstmod:nether_ruby_ore"
+      "model": "myfirstmod:block/nether_ruby_ore"
     }
   }
 }
